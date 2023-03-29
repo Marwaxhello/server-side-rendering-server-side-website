@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: montserrat, sans-serif, Helvetica;
+}
+
+/* -----CUSTOM PROPERTIES----- */
+
+:root {
+  --yellow: #f4eb34;
+  --Aqua-green: #73aea6;
+  --Black: #000000;
+}
+
+/* -----BANNER----- */
+
+.banner {
+  background-color: var(--yellow);
+  padding: 1em;
+}
+
+.verzending_banner {
+  text-align: center;
+}
+
+/* -----LOGO----- */
+
+.vinimini-logo {
+  width: 180px;
+  margin-top: 1em;
+  margin-left: 6em;
+  position: absolute;
+}
+
+/* -----STYLE PLACING----- */
+
+.content {
+  display: grid;
+  justify-content: center;
+  margin-top: 2em;
+  margin-left: 4em;
+  gap: 5em;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* -----NAVIGATION STYLING----- */
+
+nav {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 4em;
+  font-family: montserrat, sans-serif;
+  margin-top: 60px;
+  margin-left: 26em;
+  font-style: var(--Black);
+  z-index: 1;
+}
+
+/* -----SPAN LOGING STYLING----- */
+
+span {
+    font-family: montserrat, sans-serif;
+    font-style: var(--Black);
+    font-size: 1.1em;
+}
+
+/* -----ICON STYLING----- */
+
+.icon {
+  padding-right: 21em;
+  margin-top: 3.5em;
+}
+
+h1 {
+  color: var(--Aqua-green);
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 3em;
+}

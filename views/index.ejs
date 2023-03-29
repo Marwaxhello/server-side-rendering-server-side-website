@@ -1,0 +1,23 @@
+<%- include('./partials/head') %>
+
+    <main>
+
+        <div class="content">
+
+            <% categories.forEach(category=> { %>
+                <article class="content_producten">
+                    <h2>
+                        <%= category.titel %>
+                    </h2>
+                    <img class="article-img" src="/<%=category.titel%>.png">
+                    <a href="<%= category.titel %>"> Bekijk producten</a>
+                </article>
+                </a>
+                <% }); %>
+
+        </div>
+
+
+    </main>
+
+    <%- include('./partials/foot') %>
