@@ -38,10 +38,18 @@
   display: grid;
   justify-content: center;
   margin-top: 2em;
-  margin-left: 4em;
-  gap: 5em;
-  grid-template-columns: repeat(3, 1fr);
+  margin-left: 8em;
+  gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
 }
+
+.content_producten{
+    width: 40em;
+    height: 31em;
+    border: 2px solid var(--Aqua-green);
+    border-radius: 1em;   
+}
+
 
 /* -----NAVIGATION STYLING----- */
 
