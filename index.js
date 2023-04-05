@@ -21,15 +21,13 @@ app.get('/', (request, response) => {
  
 })
 
-
-
-// app.get('/Ei', async (request, response) => {
-//   let productenUrl = url + '/producten'
-
-//   await fetchJson(productenUrl).then((data) => {
-//     response.render('Ei', data )
-//   })
-// })
+// Producten
+app.get('/producten', (request, response) => {
+  let productenUrl = url + '/producten'
+  fetchJson(productenUrl).then((data) => {
+    response.render('producten', data )
+  })
+})
 
 
 
