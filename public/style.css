@@ -11,6 +11,7 @@
   --Aqua-green: #73aea6;
   --Black: #000000;
   --Grey: #fafafa;
+  --Lightblue: #daeeee;
 }
 
 /* -----BANNER----- */
@@ -40,22 +41,27 @@
   justify-content: center;
   margin-top: 2em;
   margin-left: 9em;
+  margin-bottom: 5em;
   gap: 2em;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.content_product_1 {
-  width: 40em;
-  height: 31em;
-  border: 2px solid var(--Aqua-green);
-  border-radius: 1em;
-}
-
+.content_product_1,
 .content_product_2 {
   width: 40em;
   height: 31em;
   border: 2px solid var(--Aqua-green);
   border-radius: 1em;
+}
+
+.content_product_1:hover {
+  background-color: var(--Lightblue);
+  color: #05053f;
+}
+
+.content_product_2:hover {
+  background-color: var(--Lightblue);
+  color: #05053f;
 }
 
 .article-img {
@@ -115,7 +121,8 @@ h1 {
   color: var(--Aqua-green);
   font-size: 3em;
   text-align: center;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
+  margin-top: -2.5em;
 }
 
 h2 {
