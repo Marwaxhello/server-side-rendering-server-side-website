@@ -2,20 +2,32 @@
 
     <main>
 
-        <div class="content">
+    <div class="content">
 
             <% categories.forEach(category=> { %>
+
                 <article class="content_product">
+
                     <h2>
-                        <%= category.titel %>
+                        <%= category.titel %> 
+                        Speciaal voor jouw Mini
                     </h2>
+                    
+                    <h2>
+                        Alle producten
+                    </h2>
+
+                    <img class="article-img" src="/pinda_6stappen.webp" alt="img">
+                    <img class="article-img" src="/pinda_doosjes.webp" alt="img"> 
                     <img class="article-img" src="/<%=category.titel%>.png">
                     <a href="<%= category.titel %>"> Speciaal voor jouw Mini</a>
+
                 </article>
                 </a>
-                <% }); %>
+                <% }); %> 
 
-        </div>
+        </div> 
+
 
 
     </main>
