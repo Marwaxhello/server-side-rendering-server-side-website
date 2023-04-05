@@ -4,18 +4,17 @@
 
 <div class="pinda-producten">
 
-    <article>
+    <article class="content"> 
 
         <% producten.forEach(product=> { %>
         <% if(product.categorie.titel === "Pinda" ) { %>
 
-        <article class="content_product_1">
            
             <h2>
                 <%= product.titel %>
             </h2>
 
-
+ 
          <% if(product.titel === "Mijn eerste pinda in 6 stappen") { %>
              <img class="article-img" src="/Pinda_6stappen.webp" alt="Pinda in 6 stappen">
          <% } %>
@@ -36,8 +35,7 @@
             <img class="article-img" src="/Zakjestap3.webp" alt="Zakje stap3">
          <% } %>
 
-        
-        </article>
+       
         <% } %>
 
          <% }); %>    
