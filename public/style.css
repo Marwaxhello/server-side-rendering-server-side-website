@@ -44,7 +44,14 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.content_product {
+.content_product_1 {
+  width: 40em;
+  height: 31em;
+  border: 2px solid var(--Aqua-green);
+  border-radius: 1em;
+}
+
+.content_product_2 {
   width: 40em;
   height: 31em;
   border: 2px solid var(--Aqua-green);
