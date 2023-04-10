@@ -2,6 +2,8 @@
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 <img width="1789" alt="Screenshot 2023-04-06 at 01 26 18" src="https://user-images.githubusercontent.com/112861555/230233752-3d47ff82-2771-42e5-a509-cfc9b7fdd5a1.png">
 
+<img width="1758" alt="Screenshot 2023-04-10 at 10 56 37" src="https://user-images.githubusercontent.com/112861555/230869149-26a87f92-ba2f-4652-bad2-6bc9cc9866dd.png">
+
 
 
 ## Inhoudsopgave
