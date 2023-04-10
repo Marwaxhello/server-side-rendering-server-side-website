@@ -54,6 +54,16 @@
   border-radius: 1em;
 }
 
+.pinda-producten {
+  display: grid;
+  justify-content: center;
+  margin-top: 2em;
+  margin-left: 9em;
+  margin-bottom: 5em;
+  gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .producten_link {
   text-decoration: none;
 }
@@ -69,7 +79,6 @@
   border: 2px solid var(--Aqua-green);
   border-radius: 1em;
 }
-
 
 /* -----HOVER STYLING----- */
 
