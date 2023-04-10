@@ -2,9 +2,9 @@
 
 <h1>Alle producten</h1>
 
-<div class="pinda-producten">
+<div class="content">
 
-    <article class="content"> 
+    <article class="pindaproducten"> 
 
         <% producten.forEach(product=> { %>
         <% if(product.categorie.titel === "Pinda" ) { %>
@@ -19,11 +19,11 @@
              <img class="article-img" src="/Pinda_6stappen.webp" alt="Pinda in 6 stappen">
          <% } %>
         
-        <% if(product.titel === "Mijn eerste pinda in 6 stappen") { %>
+        <!-- <% if(product.titel === "Mijn eerste pinda in 6 stappen") { %>
              <img class="article-img" src="/Pinda_doosjes.webp" alt="Pinda 4 maanden">
-        <% } %>
+        <% } %> -->
 
-        <% if(product.titel==="Mijn eerste pinda in 6 stappen" ) { %>
+        <!-- <% if(product.titel==="Mijn eerste pinda in 6 stappen" ) { %>
             <img class="article-img" src="/Zakjestap.webp" alt="Zakje stap">
          <% } %>
 
@@ -33,7 +33,7 @@
 
         <% if(product.titel==="Mijn eerste pinda in 6 stappen" ) { %>
             <img class="article-img" src="/Zakjestap3.webp" alt="Zakje stap3">
-         <% } %>
+         <% } %> -->
 
        
         <% } %>
